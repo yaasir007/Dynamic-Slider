@@ -12,11 +12,11 @@
     <!-- Slideshow container -->
 <div class="slideshow-container">
 
-  <?php 
+  <?php
   $currentDate = date("Y/m/d");
-  $promoEndDate = date("2022/05/21");
+  $promoEndDate = date("2022/08/16");
 
-  if ($currentDate > $promoEndDate) {  
+  if ($currentDate > $promoEndDate) {
   ?>
 
     <!-- Full-width images with number and caption text -->
@@ -25,19 +25,19 @@
       <img src="images/food/food1.jpg" style="width:100%">
       <div class="text">Caption Text</div>
     </div>
-  
+
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
       <img src="images/food/food2.jpg" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
-  
+
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
       <img src="images/food/food3.jpg" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
-  
+
     <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -49,28 +49,28 @@
       <img src="images/clothes/clothes1.jpg" style="width:100%">
       <div class="text">Caption Text</div>
     </div>
-  
+
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
       <img src="images/clothes/clothes2.jpg" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
-  
+
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
       <img src="images/clothes/clothes3.jpg" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
-  
+
     <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        
+
+
         <?php  } ?>
 </div>
 <br>
-  
+
   <!-- The dots/circles -->
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
